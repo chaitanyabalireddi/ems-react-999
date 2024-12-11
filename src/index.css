@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.round{
+    background: radial-gradient(800px circle at 100px 100px, rgba(255,255,255,0.7),transparent 40%);
+    border-radius: 50%;
+    background-color: black;
+    display: none;
+    box-shadow: 10px solid white;
+    webkit-box-shadow: 10px 10px 97px 10px rgba(245,245,245,1);
+   -moz-box-shadow: 10px 10px 97px 10px rgba(245,245,245,1);
+    box-shadow: 10px 10px 97px 20px rgba(245,245,245,1);
+}
+#tasklist::-webkit-scrollbar{
+     display: none;
+}
